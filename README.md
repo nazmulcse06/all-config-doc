@@ -38,8 +38,11 @@ sudo nmcli conn add type bridge con-name br0 ifname br0
 static IP:
 
 sudo nmcli conn modify br0 ipv4.address '192.168.1.1/24'
+
 sudo nmcli conn modify br0 ipv4.gateway '192.168.1.1'
+
 sudo nmcli conn modify br0 ipv4.dns '192.168.1.1'
+
 sudo nmcli conn modify br0 ipv4.method manual
 
 sudo nmcli conn add type ethernet slave-type bridge con-name bridge-br0 ifname ens5 master br0
