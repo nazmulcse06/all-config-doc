@@ -46,6 +46,8 @@ sudo nmcli conn add type ethernet slave-type bridge con-name bridge-br0 ifname e
 
 sudo nmcli conn up br0
 
+sudo nmcli conn down ens5
+
 sudo nmcli conn show --active
 
 sudo bridge link show
