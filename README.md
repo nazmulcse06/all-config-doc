@@ -3,6 +3,9 @@
 
 https://blogs.oracle.com/linux/post/oracle-linux-8-kernel-based-virtual-machine-kvm-virtualization-made-easy-with-short-training-videos
 
+FreeBSD:
+https://www.cyberciti.biz/faq/kvmvirtualization-virt-install-openbsd-unix-guest/?__cf_chl_captcha_tk__=pmd_B14XhRGhh8nAjdDeX8Zfd5N4JxpJKuIkWXVIchkGGcM-1629733931-0-gqNtZGzNAzujcnBszQl9
+
 Enabling KVM on Oracle Linux 8
 
 Check List:
