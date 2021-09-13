@@ -59,4 +59,16 @@ sudo nmcli conn show --active
 sudo bridge link show
 
 
+#!/bin/bash 
+pg_dump -d postgres://postgres:postgres@192.168.122.21:5432/amigos -Fc > /tmp/dump55.dump
+pg_restore -d postgres://postgres:postgres@192.168.122.22:5432/siemtest < /tmp/dump55.dump
+
+
+
+
+ALTER SCHEMA siem RENAME TO siem2;
+ALTER TABLE person
+ADD COLUMN city VARCHAR;
+
+
 
